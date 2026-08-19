@@ -1,0 +1,6 @@
+torch
+transformers
+numpy
+sentence-transformers
+requests
+psutil
