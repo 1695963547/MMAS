@@ -1,0 +1,27 @@
+# 压缩包（冗余，与目录内容重复）
+code_supplement.zip
+
+# 缓存 / 临时文件
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.log
+
+# 向量缓存 / 中间产物
+*.pkl
+*.npy
+
+# 数据文件（如不希望上传数据集，可取消注释）
+# *.jsonl
+# data/
+
+# 本地配置（含密钥）
+llm_local_config.py
+*.local.py
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
